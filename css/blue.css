@@ -139,6 +139,7 @@ nav{margin:0;background:none;}.menu li{display:block;margin:0;}.menu li a{backgr
 /* start mian */
 .main_bg{
 	background: #F3F3F3;
+	    box-shadow: 0px 0px 15px rgba(0,0,0,.3) inset;
 }
 .main_grid{
 	padding: 4% 0;
