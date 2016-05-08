@@ -17,18 +17,22 @@ body {
 	font-size: 100%;
 }
 .header_bg{
-	background: #76C7C0;
+	background: rgb(119,147,60);
 }
 .header{
-	padding: 4% 0;
+	padding: 2% 0;
 }
 .logo{
-	margin-top: 10px;
 	float: left;
+	width: 10%;
+}
+.logo a img{
+width: 100%
 }
 /* start h_menu */
 .h_menu{
 	float: right;
+	margin-top: 20px;
 }
 nav{
 	display:block;
@@ -43,11 +47,11 @@ nav{
 }
 .menu li:first-child{margin-left:0;}
 .menu li.activate a,.menu li a:hover{
-	background: #62A29E;
-	box-shadow: inset 0px -4px 0px #47817E;
-	-webkit-box-shadow: inset 0px -4px 0px #47817E;
-	-moz-box-shadow: inset 0px -4px 0px #47817E;
-	-o-box-shadow: inset 0px -4px 0px #47817E;
+	background: rgb(119,147,60);
+	box-shadow: inset 0px -4px 0px rgb(78,97,40);
+	-webkit-box-shadow: inset 0px -4px 0px rgb(78,97,40);
+	-moz-box-shadow: inset 0px -4px 0px rgb(78,97,40);
+	-o-box-shadow: inset 0px -4px 0px rgb(78,97,40);
 	border-radius: 4px;
 	-webkit-border-radius: 4px;	
 	-moz-border-radius: 4px;	
@@ -68,7 +72,7 @@ nav{
 }
 .menu li a:hover,.menu li:hover>a{
 	color:#ffffff;
-	background: #62A29E;
+	background: rgb(119,147,60);
 }
 .menu ul{
 	display: none;
