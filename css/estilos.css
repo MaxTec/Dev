@@ -1,10 +1,15 @@
-.label1{
-	 white-space: normal;
-}
-.portfolio-wrapper{
+.caja-flexible{
 	height: 480px;
-	/*
 	display: flex;
 	justify-content: center;
-	align-items: center;*/
+	align-items: center;
+}
+.productos{
+	width: 33.33%;
+	text-align: center;
+}
+.productos:hover{
+	background: #EA6060;
+    border: 1px solid #CF5050;
+    color: #fff;
 }
