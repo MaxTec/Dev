@@ -311,7 +311,7 @@ nav{margin:0;background:none;}.menu li{display:block;margin:0;}.menu li a{backgr
 	padding-top: 10%;
 }
 .span_of_3{
-	margin: 4% 0;
+	margin: 0 0;
 }
 .span1_of_3{
 	padding: 0;
@@ -544,10 +544,10 @@ nav{margin:0;background:none;}.menu li{display:block;margin:0;}.menu li a{backgr
 }
 /*-- start footer1 --*/
 .footer1_bg{
-	background: #6AB3AC;
+	background: rgba(119,147,60,255);
 }
 .footer1{
-	padding: 2% 0;
+	padding: 3% 0;
 }
 .copy p{
 	color: #ffffff;
@@ -1429,7 +1429,8 @@ h3.style{
 @media only screen and (max-width: 768px) {
 	.logo{
 		float: none;
-		text-align:center;
+		margin: auto;
+		width: 20%;
 	}
 	.h_menu{
 		float:none;
@@ -1528,6 +1529,11 @@ h3.style{
 	}
 }
 @media only screen and (max-width: 480px) {
+	.logo{
+		float: none;
+		margin: auto;
+		width: 30%;
+	}
 	.read_more {
 		left: 36%;
 	}
@@ -1546,6 +1552,11 @@ h3.style{
 	}
 }
 @media only screen and (max-width: 320px) {
+	.logo{
+		float: none;
+		margin: auto;
+		width: 30%;
+	}
 	h3.style {
 		font-size: 20px;
 		margin: 10px 0 0;
