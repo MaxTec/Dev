@@ -20,6 +20,9 @@ body {
 	background: rgb(119,147,60);
 	border-bottom: solid lightgray;
 }
+.text-center{
+	text-align: center
+}
 .header{
 	padding: 2% 0;
 }
@@ -114,12 +117,13 @@ nav{
 	display: none;
 	width: 100%;
 	padding: 12px;
-	background: #528B86;
+	background: rgba(60,80,15,1);
 	color: #ffffff;
 	text-transform: uppercase;
 	font-size: 16px;
+	text-decoration: none;
 }
-.mobile-menu:hover{background:#447F7A;color:#ffffff;text-decoration:none;}
+.mobile-menu:hover{background:rgba(60,80,15,0.4);color:#ffffff;text-decoration:none;}
 @media (min-width: 768px) and (max-width: 979px) {.mainWrap{width:768px;}.menu ul{top:37px;}
 .menu li a{font-size:12px;padding:8px;}}
 @media (max-width: 767px) {
