@@ -18,7 +18,6 @@ body {
 }
 .header_bg{
 	background: rgb(119,147,60);
-	border-bottom: solid lightgray;
 }
 .text-center{
 	text-align: center
@@ -592,7 +591,7 @@ nav{margin:0;background:none;}.menu li{display:block;margin:0;}.menu li a{backgr
 	text-decoration:none;
 }
 .soc_icons ul li a:hover i{
-	color: #E8645A;
+	color: rgba(60,80,15,1);
 }
 /* start about */
 .main_grid1{
@@ -955,6 +954,41 @@ h3.style{
 	color: #808B8D;
 	text-transform: capitalize;
 	font-size: 20px;
+}
+.blog_right .prices{
+	background: white;
+	box-shadow: 0px 0px 4px rgba(0,0,0,0.2);
+	height: 200px;
+	border-radius: 5px;
+}
+.blog_right p{
+padding-top:10px;
+color: teal;
+font-size: 2rem;
+text-align: center;
+}
+.blog_right p span{
+font-size: 3rem;
+color: teal;
+padding-right: 10px;
+}
+.blog_right .prices h1{
+font-size: 4em;
+background-color: teal;
+padding: 5px 0px;
+color: white;
+}
+.blog_right .prices span{
+font-size: 3rem;
+padding-right: 10px;
+}
+.blog_right .prices p{
+text-align: center;
+font-size: 2rem;
+color: #E55846;
+}
+.blog_right .prices ul li{
+font-size: 1.8rem;
 }
 /* start ads_nav */
 .ads_nav li{
